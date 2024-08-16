@@ -1,0 +1,180 @@
+/* font family google font   */
+
+.poppins {
+  font-family: "Poppins", system-ui;
+  
+}
+
+.space{
+  font-family: "Space Grotesk", sans-serif;
+}
+/* end font family google font   */
+:root{
+  --colorWhite: #FFFFFF;
+}
+
+li{
+  list-style: none ;
+
+}
+
+.header{
+  background-color: #11112A;
+  background-image:
+      linear-gradient(#11112a6a 0%, #11112a 100%),
+      /* اللون مع شفافية 30% */
+      url('../img/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: normal;
+}
+header .imgHeader{
+  height: 66px;
+  width:104px ;
+}
+header .buttonHeader{
+  padding: 8px 20px;
+  background-color: #00000000;
+  border-color: var(--colorWhite);
+  color: var(--colorWhite);
+  border-radius: 6px;
+}
+header ul li  {
+  color: var(--colorWhite);
+}
+.bgBlue{
+  background-color: #11112A;
+}
+.logo i {
+  font-size: 50px;
+  color: #3366FF;
+}
+.imgMap{
+  width: 95%;
+}
+.img img{
+  width: 320px;
+}
+.list{
+  transition: 3s;
+  cursor: pointer;
+  transition: 2s;
+}.list  .active {
+  
+  color: yellow;
+  border-bottom: yellow solid 1px;
+  padding-bottom: 5px;
+  transition: 2s ;
+  
+}
+.wx{
+  width: 200px;
+  height: 200px;
+}
+
+.bgBody{
+  background-color:  #D5D9E5 ;
+}
+.positionAbsoluteLeft{
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  cursor: pointer;
+}
+.positionAbsoluteRight{
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  cursor: pointer;
+}
+.imgText img{
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.imgTextCenter img{
+  width: 310px;
+  height: 330px;
+  border-radius: 10px;
+}
+.transform {
+  padding:0  0px  20px 20px;
+  background-color: #11112a67;
+  transform: translate( 0 , -100%);
+}
+
+.positionAbsoluteTowLeft {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  cursor: pointer;
+}
+
+.positionAbsoluteTowRight {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  cursor: pointer;
+}
+.serves{
+  transition: 3s;
+}
+.textEnd{
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+}
+.colorH3End{
+  color: #0D1940;
+  font-size: 72px;
+  font-weight:700;
+}
+.colorSpanEnd{
+  color: #3366FF;
+  
+}
+.pEnd{
+  text-align: center;
+  border-radius:  12px ;
+  color: var(--colorWhite);
+  background-color: #0D1940;
+  width: 300px;
+  padding: 12px 24px ;
+}
+.colorEnd{
+  cursor: pointer;
+  color: #0D1940;
+}
+.textJs .active{
+  color: #3366FF;
+}
+.pAbsloute{
+  position: absolute;
+  top: 20px;
+  cursor: pointer;
+  right: 40px;
+}
+.end .textJs:not(:last-child) {
+  border-bottom: solid 1px #6F6F6F;
+}
+footer{
+  background-color: #11112A;
+}
+.cond{
+  border-bottom: solid white 1px ;
+}
+footer img{
+  width: 204px;
+  height: 129.96px ;
+}
+.footer{
+  padding: 0;
+  margin: 0;
+}
+.footer ul li {
+  color: #FFFFFF;
+}
